@@ -96,12 +96,12 @@ function main() {
         input = userInputElement.value;
         answer = kanaTestElement.innerHTML;
         if(input.slice(-1) == answer){
-            console.log("Correct");
-        } else {
-            console.log("Wrong");
-        }
+            //console.log("Correct");
+            newKana();
+        } //else {
+            //console.log("Wrong");
+        //}
         userInputElement.value = "";
-        newKana();
     }
 
     function newKana() {
