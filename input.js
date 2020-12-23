@@ -111,6 +111,7 @@ function main() {
         }
 
         kanaTestElement.innerHTML = nk;
+        //kanaTestElement.innerHTML += nk;
     }
 
     function setupKanaVariables() {
